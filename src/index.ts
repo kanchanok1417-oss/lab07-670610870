@@ -161,7 +161,7 @@ app.delete("/api/students", (req: Request, res: Response) => {
     if (!result.success) {
       return res.status(400).json({
         ok: false,
-        message: result.error.issues[0]?.message, // แก้ให้ดึงข้อความจาก zod
+        message: result.error.issues[0]?.message,
       });
     }
 
@@ -172,7 +172,7 @@ app.delete("/api/students", (req: Request, res: Response) => {
     if (foundIndex === -1) {
       return res.status(404).json({
         ok: false,
-        message: "Student ID does not exist", // แก้ข้อความให้ตรงกับรูปที่ 7 ในโจทย์
+        message: "Student ID does not exist",
       });
     }
 
