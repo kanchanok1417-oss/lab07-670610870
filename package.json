@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "devEngines": {
-    "packageManager": "pnpm@11.15.1" {
+    "packageManager": {
       "name": "pnpm",
       "version": "^11.13.0",
       "onFail": "download"
