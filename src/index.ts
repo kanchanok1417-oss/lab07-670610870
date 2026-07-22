@@ -5,7 +5,7 @@ import morgan from "morgan";
 
 // import database
 import { students } from "@db/db.js";
-import { type Student } from "@libs/types.js";
+import { type Student, type Course } from "@libs/types.js";
 import {
   zStudentDeleteBody,
   zStudentPostBody,
