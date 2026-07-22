@@ -6,7 +6,7 @@
 
 ชื่อ-สกุล :กานต์ชนก ตระการกสิกิจ
 
-Vercel URL : 
+Vercel URL : https://lab07-670610870.vercel.app
 
 ---
 
